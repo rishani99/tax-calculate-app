@@ -20,12 +20,12 @@ jobs:
 
     - name: Install dependencies
       run: |
-        cd tax-calculate-app  # Path to your project folder
+        cd tax-calculate-app  
         npm install
 
     - name: Build Project
       run: |
-        cd tax-calculate-app  # Path to your project folder
+        cd tax-calculate-app 
         npm run build
 
     - name: Deploy (Optional)
