@@ -1,0 +1,51 @@
+.group-form-container {
+    max-width: 600px;
+    margin: auto;
+    background: #f7f7f7;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .group-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .group-form-container label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .group-form-container input,
+  .group-form-container textarea,
+  .group-form-container select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .group-form-container .radio-group {
+    display: flex;
+    gap: 20px;
+    margin-top: 5px;
+  }
+  
+  .group-form-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0e6cf5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .group-form-container button:hover {
+    background-color: #064dc1;
+  }
+  

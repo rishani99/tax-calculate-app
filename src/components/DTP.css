@@ -1,0 +1,46 @@
+.dtp-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fdfdfd;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .form-section {
+    margin-top: 20px;
+  }
+  
+  .form-section input {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 8px;
+    width: 80%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #343a40;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #495057;
+  }
+  
+  .result-section {
+    margin-top: 25px;
+    font-size: 18px;
+    background: #eef6ec;
+    padding: 15px;
+    border-radius: 6px;
+  }
+  

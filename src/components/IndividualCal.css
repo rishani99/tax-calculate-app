@@ -1,0 +1,91 @@
+.individual-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fdfdfd;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .individual-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-section {
+    margin-bottom: 20px;
+  }
+  
+  .form-section label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #444;
+  }
+  
+  .form-section input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .form-section button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .form-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  .result-section {
+    margin-top: 30px;
+    background-color: #eef;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .result-section h3,
+  .result-section h4 {
+    color: #333;
+  }
+  
+  .result-section p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #006400;
+  }
+  
+  .result-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .result-section th,
+  .result-section td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .result-section th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .result-section td {
+    background-color: #f9f9f9;
+  }
+  

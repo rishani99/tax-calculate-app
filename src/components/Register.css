@@ -1,0 +1,48 @@
+.register-container {
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f0c27b, #4b1248);
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
+  padding: 5rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  margin: 2rem;
+}
+
+  @keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .register-form input,
+  .register-form select {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .register-form .btn {
+    background-color: #0bc2d8;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 10px; /* Very close to bottom */
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  }

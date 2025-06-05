@@ -1,0 +1,39 @@
+.stamp-duty-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fdfdfd;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .button-group button {
+    padding: 12px 18px;
+    font-size: 16px;
+    background-color: #343a40;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .button-group button:hover {
+    background-color: #495057;
+  }
+  
+  .stamp-result {
+    margin-top: 30px;
+    background: #eef6ec;
+    padding: 20px;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,54 @@
+.update-container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f0c27b, #4b1248);
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  margin: 2rem;
+
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+  
+  .update-description {
+    font-size: 16px;
+    color: #f1ebeb;
+    margin-bottom: 1.5rem;
+  }
+  
+  .document-section {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-left: 4px solid #007bff;
+    border-radius: 8px;
+  }
+  
+  .document-section h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  .download-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .download-link:hover {
+    background-color: #0056b3;
+  }
+  

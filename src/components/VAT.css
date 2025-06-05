@@ -1,0 +1,39 @@
+.vat-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f1f7ff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 12px;
+  width: 100%;
+  padding: 10px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.result-section {
+  margin-top: 20px;
+  background-color: #e2f0d9;
+  padding: 15px;
+  border-radius: 5px;
+}
